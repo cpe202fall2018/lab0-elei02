@@ -1,7 +1,7 @@
 def weight_on_planets():
    # write your code here
    print ("What do you weigh on earth? ", end='')
-   age = input
+   age = input()
    weightOnMars = 0.38 * double(age)
    weightOnJupiter = 2.34 * double(age)
    print("On Mars you would weigh " + weightOnMars + " pounds.")
