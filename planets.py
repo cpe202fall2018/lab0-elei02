@@ -4,7 +4,7 @@ def weight_on_planets():
    age = int(input())
    weightOnMars = 0.38 * age
    weightOnJupiter = 2.34 * age
-   print("On Mars you would weigh", weightOnMars, "pounds.","\nOn Jupiter you would weigh", weightOnJupiter, "pounds.")
+   print("\nOn Mars you would weigh", weightOnMars, "pounds.","\nOn Jupiter you would weigh", weightOnJupiter, "pounds.", end='')
    
 if __name__ == '__main__':
    weight_on_planets()
